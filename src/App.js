@@ -1,4 +1,7 @@
 import logo from './logo.svg';
+import Texto from './components/Texto';
+import Button from './components/Button'
+import Form from './components/Form';
 import './App.css';
 
 function App() {
@@ -17,7 +20,12 @@ function App() {
         >
           Learn React
         </a>
+        <Texto/>
+        <Button num="1" />
+        <Button num="2"/>
+        <Form/>
       </header>
+      
     </div>
   );
 }
